@@ -10,11 +10,18 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="game-container"></div>
-  <button id='start-button'>start</button>
-  <button id='reset-button'>reset</button>
-  <label for="no_of_attempts">No. of attempts: <span id="no_of_attempts">0</span></label>
-  <div id="timer"></div>
+  <div class="main-wrapper">
+      <div class="game-header">
+        <h1>The Memory Game</h1>
+      </div>
+      <div id="game-container"></div>
+      <div class="game-panel">
+        <button id='start-button'>start</button>
+        <button id='reset-button'>reset</button>
+        <label for="no_of_attempts">No. of attempts: <span id="no_of_attempts">0</span></label>
+        <div id="timer"></div>
+      </div>
+  </div>
 
   <script src="js/jquery-min.js"></script>
   <script src="js/jquery.flip.min.js"></script>

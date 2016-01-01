@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+.main-wrapper{
+  width: 70%;
+  margin:10px auto;
+}
 #game-container {
   width: 100%;
   display: flex;

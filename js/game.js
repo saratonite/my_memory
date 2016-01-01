@@ -89,6 +89,9 @@
     attachEvent: function() {
       var self = this;
       $('#game-container').on('click', '.card', function(){
+        if(self.canPick == false){
+          alert("Please start game");
+        }
         if(self.canPick && self.pickedCard !== this ) {
           $(this).flip(true);
           if(!self.pickedCard) {
